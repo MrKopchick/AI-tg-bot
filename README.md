@@ -1,3 +1,3 @@
-telegram bot basedf on grammy.Main feature is AI in bot
+telegram bot, based on grammy. Main feature - AI
 
 - pet project
