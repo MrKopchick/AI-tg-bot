@@ -1,6 +1,6 @@
 import { bot } from "./bot/bot";
 import { initBot } from "./bot/init";
-import { BotStatusMessage, BotErrorMessage } from "./lib/enums/enums";
+import { BotStatusMessage, BotErrorMessage } from "./bot/libs/enums/enums";
 
 (async () => {
   try {
