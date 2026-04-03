@@ -1,11 +1,9 @@
-export interface YCContext {
-  token: {
-    access_token: string;
-  };
+import { Config, config } from './config';
+
+export interface AppContext {
+  readonly config: Config;
 }
 
-interface GlobalContext {
-  context: YCContext | null;
-}
-
-export const globalContext: GlobalContext = { context: null };
+export const globalContext: AppContext = {
+  config: config,
+};

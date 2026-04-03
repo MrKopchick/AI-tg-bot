@@ -1,5 +1,5 @@
 import { Bot } from "grammy";
 import { BotContext } from "./libs/types/types";
-import { BOT_TOKEN } from "../config/env";
+import { globalContext } from "../config/context";
 
-export const bot = new Bot<BotContext>(BOT_TOKEN);
+export const bot = new Bot<BotContext>(globalContext.config.telegram.token);
